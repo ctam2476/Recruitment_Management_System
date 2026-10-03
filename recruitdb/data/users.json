@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "usr_001",
+    "fullName": "Nguyễn Minh Anh",
+    "email": "minhanh@recruitdb.demo",
+    "role": "recruiter",
+    "department": "Nhân sự & Văn hóa",
+    "status": "active",
+    "createdAt": "2026-08-01T08:00:00Z"
+  },
+  {
+    "_id": "usr_002",
+    "fullName": "Trần Quốc Bảo",
+    "email": "quocbao@recruitdb.demo",
+    "role": "hiring_manager",
+    "department": "Kỹ thuật",
+    "status": "active",
+    "createdAt": "2026-08-02T08:00:00Z"
+  },
+  {
+    "_id": "usr_003",
+    "fullName": "Lê Thu Hà",
+    "email": "thuha@recruitdb.demo",
+    "role": "interviewer",
+    "department": "Kỹ thuật",
+    "status": "active",
+    "createdAt": "2026-08-03T08:00:00Z"
+  },
+  {
+    "_id": "usr_004",
+    "fullName": "Phạm Đức Long",
+    "email": "duclong@recruitdb.demo",
+    "role": "interviewer",
+    "department": "Sản phẩm",
+    "status": "active",
+    "createdAt": "2026-08-04T08:00:00Z"
+  },
+  {
+    "_id": "usr_005",
+    "fullName": "Vũ Ngọc Mai",
+    "email": "ngocmai@recruitdb.demo",
+    "role": "hiring_manager",
+    "department": "Sản phẩm",
+    "status": "active",
+    "createdAt": "2026-08-05T08:00:00Z"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "recruitdb",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ứng dụng minh họa CSDL NoSQL quản lý tuyển dụng và khai thác Mingo",
+  "type": "module",
+  "packageManager": "npm@10.9.2",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node scripts/check-json.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

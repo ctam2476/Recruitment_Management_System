@@ -1,0 +1,94 @@
+[
+  {
+    "_id": "job_001",
+    "code": "ENG-FE-01",
+    "title": "Kỹ sư Frontend",
+    "department": "Kỹ thuật",
+    "location": "Hà Nội / Kết hợp",
+    "employmentType": "full_time",
+    "experienceLevel": "mid",
+    "skills": [
+      "React",
+      "TypeScript",
+      "CSS"
+    ],
+    "salaryRange": {
+      "min": 25000000,
+      "max": 40000000,
+      "currency": "VND"
+    },
+    "status": "open",
+    "openDate": "2026-09-01T08:00:00Z",
+    "closeDate": "2026-10-15T17:00:00Z",
+    "createdBy": "usr_002"
+  },
+  {
+    "_id": "job_002",
+    "code": "ENG-BE-02",
+    "title": "Kỹ sư Backend",
+    "department": "Kỹ thuật",
+    "location": "TP. Hồ Chí Minh / Kết hợp",
+    "employmentType": "full_time",
+    "experienceLevel": "senior",
+    "skills": [
+      "Node.js",
+      "MongoDB",
+      "Docker"
+    ],
+    "salaryRange": {
+      "min": 35000000,
+      "max": 55000000,
+      "currency": "VND"
+    },
+    "status": "open",
+    "openDate": "2026-09-05T08:00:00Z",
+    "closeDate": "2026-10-20T17:00:00Z",
+    "createdBy": "usr_002"
+  },
+  {
+    "_id": "job_003",
+    "code": "PROD-PM-01",
+    "title": "Quản lý Sản phẩm",
+    "department": "Sản phẩm",
+    "location": "Đà Nẵng / Từ xa",
+    "employmentType": "full_time",
+    "experienceLevel": "mid",
+    "skills": [
+      "Product discovery",
+      "Roadmap",
+      "Analytics"
+    ],
+    "salaryRange": {
+      "min": 30000000,
+      "max": 48000000,
+      "currency": "VND"
+    },
+    "status": "paused",
+    "openDate": "2026-08-10T08:00:00Z",
+    "closeDate": null,
+    "createdBy": "usr_005"
+  },
+  {
+    "_id": "job_004",
+    "code": "ENG-QA-01",
+    "title": "Kỹ sư Tự động hóa QA",
+    "department": "Kỹ thuật",
+    "location": "Hà Nội / Tại văn phòng",
+    "employmentType": "full_time",
+    "experienceLevel": "junior",
+    "skills": [
+      "Playwright",
+      "API testing",
+      "CI/CD"
+    ],
+    "salaryRange": {
+      "min": 18000000,
+      "max": 28000000,
+      "currency": "VND"
+    },
+    "status": "closed",
+    "openDate": "2026-07-15T08:00:00Z",
+    "closeDate": "2026-08-30T17:00:00Z",
+    "createdBy": "usr_002"
+  }
+]

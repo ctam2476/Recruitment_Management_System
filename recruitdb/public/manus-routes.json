@@ -1,0 +1,13 @@
+{
+  "routes": [
+    { "path": "/", "title": "Tổng quan hệ thống" },
+    { "path": "/#dashboard", "title": "Tổng quan hệ thống" },
+    { "path": "/#collections", "title": "Collections & Documents" },
+    { "path": "/#schema", "title": "Schema & Index" },
+    { "path": "/#relations", "title": "Quan hệ dữ liệu" },
+    { "path": "/#mingo", "title": "Thực hành Mingo" },
+    { "path": "/#queries", "title": "Query library" },
+    { "path": "/#operations", "title": "Vận hành database" },
+    { "path": "/#comparison", "title": "So sánh công cụ GUI" }
+  ]
+}
