@@ -1,0 +1,104 @@
+[
+  {
+    "_id": "cand_001",
+    "fullName": "Đỗ Khánh Linh",
+    "email": "khanhlinh@example.demo",
+    "phone": "0900000001",
+    "source": "linkedin",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Figma"
+    ],
+    "yearsExperience": 4,
+    "currentTitle": "Lập trình viên Frontend",
+    "city": "Hà Nội",
+    "consentStatus": "granted",
+    "createdAt": "2026-09-07T09:00:00Z"
+  },
+  {
+    "_id": "cand_002",
+    "fullName": "Nguyễn Hoàng Nam",
+    "email": "hoangnam@example.demo",
+    "phone": "0900000002",
+    "source": "referral",
+    "skills": [
+      "Node.js",
+      "MongoDB",
+      "Docker"
+    ],
+    "yearsExperience": 6,
+    "currentTitle": "Lập trình viên Backend",
+    "city": "TP. Hồ Chí Minh",
+    "consentStatus": "granted",
+    "createdAt": "2026-09-08T09:00:00Z"
+  },
+  {
+    "_id": "cand_003",
+    "fullName": "Phan Gia Hân",
+    "email": "giahan@example.demo",
+    "phone": "0900000003",
+    "source": "career_site",
+    "skills": [
+      "Product discovery",
+      "Analytics",
+      "SQL"
+    ],
+    "yearsExperience": 3,
+    "currentTitle": "Chuyên viên Sản phẩm",
+    "city": "Đà Nẵng",
+    "consentStatus": "granted",
+    "createdAt": "2026-09-09T09:00:00Z"
+  },
+  {
+    "_id": "cand_004",
+    "fullName": "Trần Nhật Minh",
+    "email": "nhatminh@example.demo",
+    "phone": "0900000004",
+    "source": "job_board",
+    "skills": [
+      "Playwright",
+      "JavaScript",
+      "API testing"
+    ],
+    "yearsExperience": 2,
+    "currentTitle": "Kỹ sư QA",
+    "city": "Hà Nội",
+    "consentStatus": "granted",
+    "createdAt": "2026-09-10T09:00:00Z"
+  },
+  {
+    "_id": "cand_005",
+    "fullName": "Lê Quỳnh Chi",
+    "email": "quynhchi@example.demo",
+    "phone": "0900000005",
+    "source": "linkedin",
+    "skills": [
+      "React",
+      "Next.js",
+      "Testing"
+    ],
+    "yearsExperience": 5,
+    "currentTitle": "Kỹ sư Frontend Cấp cao",
+    "city": "Hà Nội",
+    "consentStatus": "granted",
+    "createdAt": "2026-09-11T09:00:00Z"
+  },
+  {
+    "_id": "cand_006",
+    "fullName": "Bùi Anh Tuấn",
+    "email": "anhtuan@example.demo",
+    "phone": "0900000006",
+    "source": "referral",
+    "skills": [
+      "Node.js",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "yearsExperience": 7,
+    "currentTitle": "Kỹ sư Nền tảng",
+    "city": "TP. Hồ Chí Minh",
+    "consentStatus": "granted",
+    "createdAt": "2026-09-12T09:00:00Z"
+  }
+]

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="RecruitDB – ứng dụng minh họa CSDL NoSQL quản lý tuyển dụng và khai thác Mingo." />
+    <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>RecruitDB · Quản lý tuyển dụng</title>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <a class="brand" href="#dashboard" data-route="dashboard" aria-label="RecruitDB dashboard">
+          <img src="/logo.svg" alt="" class="brand-mark" />
+          <span><strong>Recruit</strong>DB<small>MINGO READY</small></span>
+        </a>
+        <div class="sidebar-label">Không gian trình bày</div>
+        <nav id="primary-nav" class="primary-nav">
+          <button data-route="dashboard" class="nav-item active"><span class="nav-index">01</span><span>Tổng quan</span></button>
+          <button data-route="collections" class="nav-item"><span class="nav-index">02</span><span>Collections</span></button>
+          <button data-route="schema" class="nav-item"><span class="nav-index">03</span><span>Schema & Index</span></button>
+          <button data-route="relations" class="nav-item"><span class="nav-index">04</span><span>Quan hệ dữ liệu</span></button>
+          <button data-route="mingo" class="nav-item"><span class="nav-index">05</span><span>Thực hành Mingo</span></button>
+          <button data-route="queries" class="nav-item"><span class="nav-index">06</span><span>Query library</span></button>
+          <button data-route="operations" class="nav-item"><span class="nav-index">07</span><span>Vận hành DB</span></button>
+          <button data-route="comparison" class="nav-item"><span class="nav-index">08</span><span>So sánh GUI</span></button>
+        </nav>
+        <div class="sidebar-footer">
+          <div class="owner-chip"><span class="avatar">01</span><span><b>Thành viên 1</b><small>Schema · Mingo · Ops</small></span></div>
+          <p>Prototype cho đồ án CSDL NoSQL<br />Quản lý tuyển dụng nhân viên</p>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar">
+          <div><span class="eyebrow">NO-SQL RECRUITMENT LAB</span><h1 id="page-title">Tổng quan hệ thống</h1></div>
+          <div class="topbar-actions"><span class="sync-status"><i></i> Dữ liệu mẫu local</span><button class="outline-button" id="copy-link">Chia sẻ view</button></div>
+        </header>
+        <div id="app" class="page-container"></div>
+        <footer class="page-footer"><span>RecruitDB v1.0 · Dataset giáo dục, không chứa PII thật</span><span>Phạm vi thành viên 1</span></footer>
+      </main>
+    </div>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

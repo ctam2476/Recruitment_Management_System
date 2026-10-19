@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "app_001",
+    "candidateId": "cand_001",
+    "jobId": "job_001",
+    "status": "in_progress",
+    "stage": "technical",
+    "appliedAt": "2026-09-12T10:00:00Z",
+    "score": 86,
+    "notes": "Kinh nghiệm React tốt, cần xác nhận mức độ chuyên sâu về TypeScript.",
+    "assignedRecruiterId": "usr_001"
+  },
+  {
+    "_id": "app_002",
+    "candidateId": "cand_002",
+    "jobId": "job_002",
+    "status": "in_progress",
+    "stage": "interview",
+    "appliedAt": "2026-09-13T10:00:00Z",
+    "score": 91,
+    "notes": "Đã vượt qua vòng sàng lọc kỹ thuật.",
+    "assignedRecruiterId": "usr_001"
+  },
+  {
+    "_id": "app_003",
+    "candidateId": "cand_003",
+    "jobId": "job_003",
+    "status": "paused",
+    "stage": "screening",
+    "appliedAt": "2026-09-14T10:00:00Z",
+    "score": 74,
+    "notes": "Đang chờ mở lại nhu cầu tuyển dụng.",
+    "assignedRecruiterId": "usr_001"
+  },
+  {
+    "_id": "app_004",
+    "candidateId": "cand_004",
+    "jobId": "job_004",
+    "status": "rejected",
+    "stage": "screening",
+    "appliedAt": "2026-08-02T10:00:00Z",
+    "score": 58,
+    "notes": "Chưa đáp ứng yêu cầu về tự động hóa kiểm thử.",
+    "assignedRecruiterId": "usr_001"
+  },
+  {
+    "_id": "app_005",
+    "candidateId": "cand_005",
+    "jobId": "job_001",
+    "status": "in_progress",
+    "stage": "offer",
+    "appliedAt": "2026-09-15T10:00:00Z",
+    "score": 94,
+    "notes": "Đang trao đổi về đề nghị tuyển dụng.",
+    "assignedRecruiterId": "usr_001"
+  },
+  {
+    "_id": "app_006",
+    "candidateId": "cand_006",
+    "jobId": "job_002",
+    "status": "hired",
+    "stage": "hired",
+    "appliedAt": "2026-08-18T10:00:00Z",
+    "score": 96,
+    "notes": "Đã chấp nhận đề nghị tuyển dụng.",
+    "assignedRecruiterId": "usr_001"
+  }
+]
