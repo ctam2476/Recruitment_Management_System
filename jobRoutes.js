@@ -1,17 +1,32 @@
-const mongoose = require('mongoose');
+import express from 'express';
+import Job from './job.js'; 
 
-const jobSchema = new mongoose.Schema({
-    title: { type: String, required: true },         
-    department: { type: String, required: true },    
-    type: { type: String, default: 'Full-time' },    
-    workModel: { type: String, default: 'Hybrid' },  
-    salary: { type: Number, required: true },        
-    deadline: { type: String },                      
-    status: { type: String, default: 'Open' },      
-    skills: [String],                                
-    description: { type: String }                    
-}, { timestamps: true });
+const router = express.Router();
 
+// 1. CREATE: Thêm mới tin tuyển dụng
+router.post('/', async (req, res) => {
+    try {
+        const newJob = new Job(req.body);
+        const savedJob = await newJob.save();
+        res.status(201).json({ message: "Thêm tin tuyển dụng thành công!", data: savedJob });
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+// 2. READ: Lấy danh sách tin tuyển dụng
+router.get('/', async (req, res) => {
+    try {
+        const { position } = req.query;
+        let query = position ? { title: new RegExp(position, 'i') } : {};
+        const jobs = await Job.find(query);
+        res.status(200).json(jobs);
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+// 3. AGGREGATION: Thống kê lương theo phòng ban
 router.get('/thongke', async (req, res) => {
     try {
         const thongKe = await Job.aggregate([
@@ -38,4 +53,4 @@ router.get('/thongke', async (req, res) => {
     }
 });
 
-module.exports = mongoose.model('Job', jobSchema);
+export default router;
